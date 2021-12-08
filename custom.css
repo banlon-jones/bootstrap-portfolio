@@ -10,7 +10,7 @@ body {
 }
 
 .navbar-brand {
-  font-family: Poppins;
+  font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
@@ -19,7 +19,7 @@ body {
 }
 
 .nav-link {
-  font-family: Poppins;
+  font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -29,7 +29,7 @@ body {
 
 .bg {
   background: white;
-  border-radius: 0px 0px 0px 100px;
+  border-radius: 0 0 0 100px;
   background-image: url(/img/bg-Header.png);
   background-repeat: no-repeat;
   background-position: 0 100px;
@@ -50,7 +50,7 @@ body {
 }
 
 .lead {
-  font-family: Poppins;
+  font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -59,7 +59,7 @@ body {
 }
 
 .connect {
-  font-family: Poppins;
+  font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
