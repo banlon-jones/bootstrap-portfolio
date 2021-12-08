@@ -101,7 +101,7 @@ body {
 }
 
 .about-container button {
-  font-family: Poppins;
+  font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
@@ -137,7 +137,7 @@ body {
 
 #custom div p {
   margin-top: 16px;
-  font-family: Poppins;
+  font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
