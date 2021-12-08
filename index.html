@@ -1,39 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <title> Portfolio hamepage  </title>
-    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> Portfolio hamepage </title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="custom.css" />
     <script src="js/bootstrap.min.js"></script>
 </head>
+
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">Navbar</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+        <nav class="navbar fixed-top navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand" href="#">My Logo</a>
                 <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
+                    <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            <a class="nav-link" aria-current="page" href="#">Portoflio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Features</a>
+                            <a class="nav-link" href="#">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Pricing</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                            <a class="nav-link" href="#">Contact</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
     </header>
-    <section class="works container">
+
+    <div class="bg">
+        <section class="container">
+            <div class="hero">
+                <h1> I’m Alexandra<br>
+                    Glad to see you!</h1>
+                <p class="lead">I’m a software developer! I can help you build a product , feature or website Look
+                    through
+                    some of my work and
+                    experience! If you like what you see and have a project you need coded, don’t hestiate to contact
+                    me.
+                </p>
+
+                <p class="connect">LET'S CONNECT</p>
+
+                <div class="row row-cols-auto">
+                    <div class="col"><a href="#"><img src="/img/twitter.png" alt=""></a></div>
+                    <div class="col"><a href="#"><img src="/img/Linkedin.png" alt=""></a></div>
+                    <div class="col"><a href="#"><img src="/img/medium.png" alt=""></a></div>
+                    <div class="col"><a href="#"><img src="/img/github.png" alt=""></a></div>
+                    <div class="col"><a href="#"><img src="/img/angellist.png" alt=""></a></div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+
+
+   <section class="works container">
         <div class="card m-3 mt-5">
                 <div class="card-body">
                     <div class="row">
@@ -74,7 +100,6 @@
                             </div>
                         </div>
                     </div>
-
                 </div>
             </div>
         <div class="card m-3 mt-5">
@@ -209,4 +234,5 @@
             </div>
     </section>
 </body>
+
 </html>
