@@ -11,7 +11,6 @@ body {
 
 .navbar-brand {
   font-family: Poppins, sans-serif;
-  font-style: normal;
   font-weight: bold;
   font-size: 18px;
   line-height: 20px;
@@ -20,7 +19,7 @@ body {
 
 .nav-link {
   font-family: Poppins, sans-serif;
-  font-style: normal;
+
   font-weight: 500;
   font-size: 15px;
   line-height: 20px;
@@ -44,7 +43,6 @@ body {
 .hero-container h1 {
   font-family: "Poppins", sans-serif;
   font-weight: bold;
-  font-style: normal;
   font-size: 48px;
   line-height: 60px;
   color: #091e42;
@@ -52,8 +50,6 @@ body {
 
 .hero-lead {
   font-family: Poppins, sans-serif;
-  font-style: normal;
-  font-weight: normal;
   font-size: 20px;
   line-height: 28px;
   color: #344563;
@@ -61,7 +57,6 @@ body {
 
 .connect {
   font-family: Poppins, sans-serif;
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
@@ -84,7 +79,6 @@ body {
 
 .about-container h1 {
   font-family: Poppins, sans-serif;
-  font-style: normal;
   font-weight: bold;
   font-size: 40px;
   line-height: 52px;
@@ -93,8 +87,6 @@ body {
 
 .about-lead {
   font-family: Poppins, sans-serif;
-  font-style: normal;
-  font-weight: normal;
   font-size: 16px;
   line-height: 24px;
   color: #344563;
@@ -102,7 +94,6 @@ body {
 
 .about-container button {
   font-family: Poppins, sans-serif;
-  font-style: normal;
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
@@ -114,9 +105,13 @@ body {
   padding-top: 142px;
 }
 
+.accordion-item {
+  border: none;
+  border-bottom: black;
+}
+
 .accordion-button {
   font-family: Poppins, sans-serif;
-  font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
@@ -138,7 +133,6 @@ body {
 #custom div p {
   margin-top: 16px;
   font-family: Poppins, sans-serif;
-  font-style: normal;
   font-weight: 500;
   font-size: 15px;
   line-height: 20px;
